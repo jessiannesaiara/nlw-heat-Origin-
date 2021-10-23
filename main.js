@@ -1,5 +1,5 @@
 const LinksSocialMedia = {
-    github: "edipoelwes",
+    github: "jessiannesaiara",
     youtube: "UCpUcy1BSS2C3Y5PFry_zkvQ",
     instagram:"jessiannemacedo",
     facebook: "jessianne.jessiannesaiara",
