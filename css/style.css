@@ -87,19 +87,58 @@
   
     justify-content: center;
   }
+
+  .button {
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 4px;
+    font-weight: 700px;
+    color: #000000;
+    background-color: #fea24b;
+    border-color: #ffffff;
+    border-width: 5px;
+    cursor: pointer;  
+    display: block; 
+    margin: auto; 
+    margin-top: 2rem;
+    width: 12rem;
+  
+  }
+
+ .button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #fea24b;
+    border-width: 5px;    
+  }
   
   @media (min-width: 720px) {      
     main {
-    background: url(images/desktop.svg) no-repeat center/cover;
+    background: url(/images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 820px;
-    height: 100vh;   
+    height: 100vh; 
+ 
+  }
+  .button {
+    font-size: 20px;
+    padding: 6px;
+    width: 12rem;
+    margin-top: 3rem;
   } }
   
   @media (min-width: 960px) {      
     main {
-    background: url(images/desktop.svg) no-repeat center/cover;
+    background: url(/images/desktop.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 820px;
-    height: 100vh;   
-  } }
+    height: 100vh;  
+    
+  } 
+  .button {
+    font-size: 25px;
+    padding: 8px;
+    width: 15rem;
+  
+  }
+}

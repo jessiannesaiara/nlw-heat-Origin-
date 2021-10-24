@@ -1,0 +1,168 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .section-container{
+    height:  100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+  body {
+    background: url(/images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+   
+}
+
+.card-container {
+    background: #db6f01;
+    border-radius: 25px;
+    padding: 20px 60px 20px 60px;
+    max-width: 150px;   
+    margin:auto
+  }
+ .input {
+    max-width: 200px;
+    margin-bottom: auto;
+    margin-top: 10px;    
+  }
+
+  #cadastro {
+    font-weight: 900;
+    cursor: pointer;
+    background-color:#000000;  
+    color: #ffffff;
+  } 
+  
+  #cadastro:hover {
+  background-color:#c73939;
+  color: #ffffff;
+  }
+  
+  
+  #cabecalho {
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  
+  .button {
+    background-color: #db6f01;
+    color: #ffff;
+    height: 3.5rem;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    font: 500 1rem 'DM Sans', sans-serif;
+    transition: background 0.3s;
+    position: relative;
+    left: 450px;
+    text-decoration: none;
+  
+  }
+  
+  form{
+    display: grid;
+    margin: auto;    
+  }
+  
+  input { 
+    width: 100%;
+    height: 30px;
+    border-radius: 12px;
+    background: #ffff;
+    color: #000;
+    font-style:inherit;
+  
+  }
+
+  @media (min-width: 720px) {
+    .section-one{
+      width: auto;
+      flex-basis: 20%;
+    }
+  
+    .button {
+      width: 70%;
+      position: relative;
+      left: 30px;
+    }
+
+    .card-container {
+      background: #db6f01;
+      border-radius: 25px;
+      padding: 30px 80px 50px 80px;
+      max-width: 300px;   
+      margin:auto
+    }
+
+    .input {
+      max-width: 300px;
+      height: 30px;
+      margin-bottom: auto;
+      margin-top: 10px;    
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 25px;
+      text-align: center;
+     
+  }
+  
+  
+  }
+
+  @media (min-width: 960px) {
+
+    .card-container {
+      background: #db6f01;
+      border-radius: 25px;
+      padding: 60px 100px 60px 100px;
+      max-width: 500px;   
+      margin:auto
+      display: flex;  
+      justify-content: center;
+      align-items: center;  
+  
+    }
+
+    .input {
+      max-width: 400px;
+      height: 40px;
+      margin-bottom: auto;
+      margin-top: 10px; 
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 35px;
+      text-align: center;
+     
+  }
+  
+    
+  }
