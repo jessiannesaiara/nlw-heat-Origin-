@@ -18,7 +18,7 @@
   }
   
   main {
-    background: url(images/background.svg) no-repeat center/cover;
+    background: url(/images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
@@ -114,7 +114,7 @@
   
   @media (min-width: 720px) {      
     main {
-    background: url(images/background.svg) no-repeat center/cover;
+    background: url(/images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 820px;
     height: 100vh; 
@@ -129,7 +129,7 @@
   
   @media (min-width: 960px) {      
     main {
-    background: url(images/desktop.svg) no-repeat center/cover;
+    background: url(/images/desktop.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 820px;
     height: 100vh;  
